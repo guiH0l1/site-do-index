@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    /* margem */
+    padding: 0;
+    /* espaçamento interno */
+    font-size: 12px;
+    /* tamanho da fonte */
+    font-family: 'Open Sans', sans-serif;
+    /* fonte dos textos */
+    font-weight: normal;
+    /* largura das letras*/
+    box-sizing: border-box;
+    /* tamanho da caixa */
+    border: none;
+    /* borda */
+    outline: none;
+    /* linha de funda */
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+h2{
+    font-size: 1.5em;
+    color:#777;
+}
+
+/* cabeçalho */
+.cabecalho{
+    width:  100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #13c7ae;
+}
+.logo a{
+width: 84px;
+height: 97px;
+float: left;
+background-image: url(../imagem/Whats.jpeg);
+font-size: 0;
+}
+
+.cabecalho form{
+    width: 30%;
+    float: right;
+}
+.cabecalho input[type="text"]{
+    width: 85%;
+    float: left;
+    padding:  15px 0 0 10px;
+}
+.cabecalho button {
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+}
+
+.cabecalho input[ type="text"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius:  5px 0px 0px 5px;
+}
+
+.cabecalho button{
+    width: 15%;
+    float: right;
+    padding: 15px 10px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+    color: #aff;
+    background: linear-gradient(to botton, #0cae98, black);
+}
+
+.menu{
+    width: 100%;
+    float: right;
+    background-color: whitesmoke;
+    padding: 18px 8%;
+}
+
+.menu form{
+    box-sizing: border-box;
+    border-bottom: #121c21;
+
+
+}
+.menu li{
+    float: left;
+}
+
+.menu a{
+    color: gray;
+    margin-right: 25px;
+}
+
+.menu li a:hover{
+    color: #a777;
+}
+.social-icons{
+    background-color: black;
+    margin-left: 50px;
+    float: right;
+}
+
+#botao01 {
+    border: 2px solid red;
+    background-color: royalblue;
+}
+
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.principal{
+    width: 100%;
+    background-color:whitesmoke;
+    padding: 16px 8%;
+    float: left;
+}
+.sobre{
+    width: 50%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+.sobre h2{
+    color: black;
+    font-weight: bold;
+}
+.sobre p{
+    text-align: justify;
+}
+
+.sobre img{
+    float: left;
+    margin-right: 20px;
+}
+
+.onde-estamos{
+    float: right;
+    background-color:#bbb;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    border-radius: 11px;
+}
+.onde-estamos ul li{
+    margin-bottom: 10px;
+    color: black;
+}
+
+.onde-estamos h2{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.onde-estamos iframe{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.newsletter{
+    width: 100%;
+    background-color: #121c21;
+    padding: 50px 8%;
+}
+.newsletter h3{
+    font-size: 3em;
+    color: blanchedalmond;
+}
+.newsletter p{
+    font-size: 15px;
+    margin: 15px 0;
+    color: blanchedalmond;
+}
+.newsletter form{
+    margin-top: 10px;
+}
+.newsletter form input{
+    background-color: initial;
+    border: 2px solid blanchedalmond;
+    padding: 15px 10px;
+    border-radius: 4px;
+    width: 200px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.newsletter form button{
+    background-color: white;
+    letter-spacing: 1px;
+    padding: 15px 10px;
+    border-radius: 4px;
+    width: 70px;
+    color: black;
+    margin-right: 10px;
+    font-weight: bold;
+}
+footer{
+    background-color: #121c21;
+    padding: 10px 0;
+    text-align: center;
+}
+footer p{
+    color: blanchedalmond;
+}
